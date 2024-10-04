@@ -1,7 +1,6 @@
 def dna_string (dna):
     c = {"A" : "T", "T" : "A", "G" : "C", "C" : "G"}
     return ''.join([c[base] for base in dna])
-print("Hello")
 
 #input
 dna = input("Input a DNA string: ")
